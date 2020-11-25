@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+### 用例名称
+creating new file
+### 用例说明
+仓库管理员在仓库中创建一个新的文件，首先命名文件，然后编辑文件，提交新文件时可以建立新的档案，同时添加扩展说明，也可以进行预习 。
+### 参与者	仓库管理员
+### 元素	
+creating a new file 、Edit new file 、commit new file 、preview、
+create new file、add extend description
+### 关系
+元素Edit new file，commit new file对于creating a new file是包含关系；
+元素preview是元素creating a new file的扩展；
+元素creating a new file和add extend description是commit new file的扩展。
+### 建模思路	仓库管理员在仓库中creating new file，提交新文件时可以建立新的档案，同时Add extended description。此外，可以进行preview，初次在仓库创建文件时，预习文件部分为空。
 
-You can use the [editor on GitHub](https://github.com/xyszl/durui20182123043.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xyszl/durui20182123043.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 用例名称	
+uploading an existing file、Query file
+### 用例说明
+仓库管理员下载现有的文件开始使用，将文件添加到存储库中或者选择管理员自己的文件将其添加到存储库中。提交文件变更的时候可以通过上传添加文件，同时添加可选的扩展说明。仓库管理员通过命令行推送现有存储库。
+### 参与者	仓库管理员
+### 元素	
+uploding an existing file、Query file、choose your files、commit change、Add files via upload、Add extended description
+### 关系	
+元素choose your files对于元素uploding an existing file是包含关系；
+元素commit change是uploding an existing file的扩展；
+元素Add files via upload 和Add extended description对于元素commit change是包含关系。
+### 建模思路	仓库管理员可以uploading an existing file，将文件拖到指定位置以将其添加到存储库中或者选择管理员自己的文件将其添加到存储库中。提交文件变更的时候可以通过上传添加文件，同时添加可选的扩展说明。同时可以push an existing repository from the command line，即Query file。
