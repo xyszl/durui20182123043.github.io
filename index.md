@@ -2,7 +2,8 @@
 creating new file
 ### 用例说明
 仓库管理员在仓库中创建一个新的文件，首先命名文件，然后编辑文件，提交新文件时可以建立新的档案，同时添加扩展说明，也可以进行预习 。
-### 参与者	仓库管理员
+### 参与者	
+仓库管理员
 ### 元素	
 creating a new file 、Edit new file 、commit new file 、preview、
 create new file、add extend description
@@ -18,7 +19,8 @@ create new file、add extend description
 uploading an existing file、Query file
 ### 用例说明
 仓库管理员下载现有的文件开始使用，将文件添加到存储库中或者选择管理员自己的文件将其添加到存储库中。提交文件变更的时候可以通过上传添加文件，同时添加可选的扩展说明。仓库管理员通过命令行推送现有存储库。
-### 参与者	仓库管理员
+### 参与者	
+仓库管理员
 ### 元素	
 uploding an existing file、Query file、choose your files、commit change、Add files via upload、Add extended description
 ### 关系	
