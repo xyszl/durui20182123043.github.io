@@ -1,9 +1,9 @@
 ### 试运用本节所学的静态建模技术找出用户管理模块中的所有的类。
-        类名	         属性            	           方法
-        用户注册类         帐号、密码、用户名	        注册、取消
-        用户登陆类         帐号、密码	            验证帐号是否合法
-       用户权限管理类	    帐号、密码	          修改用户权限、判断用户类型、取消
-       用户信息修改类	    帐号、密码、用户名	      修改用户名、修改用户密码、修改用户类型、删除
+    类名	          属性                方法
+    用户注册类     帐号、密码、用户名	 注册、取消
+    用户登陆类     帐号、密码	     验证帐号是否合法
+    用户权限管理类 帐号、密码	   修改用户权限、判断用户类型、取消
+    用户信息修改类 帐号、密码、用户名  修改用户名、修改用户密码、修改用户类型、删除
 
 ### 请找出学生管理系统中学生注册用例的实体类，边界类，控制类。
 答：学生类就是实体类，边界类是注册界面类，控制类是注册类。
@@ -13,30 +13,30 @@
 ### 2）每个类的属性，方法应该是什么，有什么作用，权限该是什么？
 ### 学期筛选类：
 ### 属性	
-         全部数据	          18至20学年所有成绩，类型为String，Private属性
-	18至19学年上学期	显示该学期内的所有成绩，类型为String，Private属性
-	18至19学年下学期	显示该学期内的所有成绩，类型为String，Private属性
-	19至20学年上学期	显示该学期内的所有成绩，类型为String，Private属性
-	19至20学年下学期	显示该学期内的所有成绩，类型为String，Private属性
+    全部数据	  18至20学年所有成绩，String，Private属性
+    18至19学年上学期	显示该学期内的所有成绩，String，Private属性
+    18至19学年下学期	显示该学期内的所有成绩，String，Private属性
+    19至20学年上学期	显示该学期内的所有成绩，String，Private属性
+    19至20学年下学期	显示该学期内的所有成绩，String，Private属性
 ### 方法	
      查询	查询在该学期内的所有成绩信息
      打印	打印该学期内的所有成绩信息
      
 ### 成绩下载类：
 ### 属性	
-        姓名	类型为String，Private属性
-	学号	类型为int，Private属性
-	学院	类型为String，Private属性
-	班级	类型为String，Private属性
-	学期	成绩所属学期，类型为String，Private属性
-	课程名称  类型为String，Private属性
-	课程性质  类型为String，Private属性
-	成绩类型  成绩类型为期末总评，类型为String，Private属性
-	应修学分  该课程应修学分，类型为String，Private属性
-	实修学分  该课程实际所修学分，类型为String，Private属性
-	成绩	该课程的成绩，类型为String，Private属性
-	绩点	该课程成绩绩点，类型为String，Private属性
-	学分绩    该课程学分绩，类型为String，Private属性
+        姓名	String，Private属性
+	学号	int，Private属性
+	学院	String，Private属性
+	班级      String，Private属性
+	学期	成绩所属学期，String，Private属性
+	课程名称  String，Private属性
+	课程性质  String，Private属性
+	成绩类型  成绩类型为期末总评，String，Private属性
+	应修学分  该课程应修学分，String，Private属性
+	实修学分  该课程实际所修学分，String，Private属性
+	成绩	该课程的成绩，String，Private属性
+	绩点	该课程成绩绩点，String，Private属性
+	学分绩    该课程学分绩，String，Private属性
 ### 方法	
         保存	保存所有成绩
 	发送	发送成绩表
